@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_OVzxoPuHEemFaoXimAwDew" name="cw1">
+    <eAnnotations xmi:id="_OgU_kPuHEemFaoXimAwDew" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_OgVmoPuHEemFaoXimAwDew" source="codegen">
+        <details xmi:id="_OgVmofuHEemFaoXimAwDew" key="codegenDirectory" value="/cw1/src"/>
+        <details xmi:id="_a2HQgPuHEemFaoXimAwDew" key="AssociatedSourceCode" value="/cw1/src/Sensor.java;177769224/1;/cw1/src/Car.java;3843693581/1;/cw1/src/ChangeState.java;1685190973/1;/cw1/src/CreateDevice.java;4111958605/1;/cw1/src/DeleteDevice.java;2770514406/1;/cw1/src/Device.java;2097579235/1;/cw1/src/FileMonitor.java;564893721/1;/cw1/src/Functionality.java;2817295112/1;/cw1/src/Manager.java;1886940563/1;/cw1/src/ModeDevice.java;1269644365/1;/cw1/src/RealTimeSystem.java;3536249589/1;/cw1/src/Simulator.java;3836023610/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_O7_A0PuHEemFaoXimAwDew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_O7_n4PuHEemFaoXimAwDew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_O7_n4fuHEemFaoXimAwDew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_O7_n4vuHEemFaoXimAwDew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_O7_n4_uHEemFaoXimAwDew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_O8AO8PuHEemFaoXimAwDew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_O8AO8fuHEemFaoXimAwDew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_O8AO8vuHEemFaoXimAwDew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_O8CEIPuHEemFaoXimAwDew">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_O6SXsPuHEemFaoXimAwDew" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_O6S-wPuHEemFaoXimAwDew" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_PDwcwPuHEemFaoXimAwDew" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PEKscPuHEemFaoXimAwDew" name="Observable"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_PEL6kfuHEemFaoXimAwDew" name="Observer"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_PEdAUPuHEemFaoXimAwDew" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PEp0oPuHEemFaoXimAwDew" name="HashMap"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PEyXgPuHEemFaoXimAwDew" name="Timer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PE5FMPuHEemFaoXimAwDew" name="Random"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_O6tOcPuHEemFaoXimAwDew" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_PD5msPuHEemFaoXimAwDew" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PD7b4fuHEemFaoXimAwDew" name="FileReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PD94IPuHEemFaoXimAwDew" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PExJYPuHEemFaoXimAwDew" name="File"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_O7Fo8PuHEemFaoXimAwDew" name="nio">
+        <packagedElement xmi:type="uml:Package" xmi:id="_O7Fo8fuHEemFaoXimAwDew" name="file">
+          <packagedElement xmi:type="uml:Class" xmi:id="_PEQMAPuHEemFaoXimAwDew" name="FileSystems"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_PEQzEfuHEemFaoXimAwDew" name="Paths"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_PESBMfuHEemFaoXimAwDew" name="StandardWatchEventKinds"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_PETPUfuHEemFaoXimAwDew" name="WatchEvent"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_PEUdcPuHEemFaoXimAwDew" name="WatchKey"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_PEXgwPuHEemFaoXimAwDew" name="WatchService"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_O7G3EPuHEemFaoXimAwDew" name="sql">
+        <packagedElement xmi:type="uml:Class" xmi:id="_PEbyMfuHEemFaoXimAwDew" name="SQLException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_PFN1UPuHEemFaoXimAwDew" name="lang">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_PFN1UfuHEemFaoXimAwDew" name="Runnable"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PFQRkPuHEemFaoXimAwDew" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O76IUfuHEemFaoXimAwDew" name="Car">
+      <ownedAttribute xmi:id="_PFaCkPuHEemFaoXimAwDew" name="d1Value" visibility="package" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_PFapoPuHEemFaoXimAwDew" value="300"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PFbQsfuHEemFaoXimAwDew" name="d2Value" visibility="package" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_PFbQsvuHEemFaoXimAwDew" value="300"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PFb3wfuHEemFaoXimAwDew" name="d3Value" visibility="package" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_PFb3wvuHEemFaoXimAwDew" value="500"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PFce0fuHEemFaoXimAwDew" name="d4Value" visibility="package" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_PFdF4PuHEemFaoXimAwDew" value="1200"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PFds8PuHEemFaoXimAwDew" name="d5Value" visibility="package" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_PFds8fuHEemFaoXimAwDew" value="150"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PFeUAPuHEemFaoXimAwDew" name="defaultValue" visibility="package" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_PFeUAfuHEemFaoXimAwDew" value="100"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PFe7EPuHEemFaoXimAwDew" name="carId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PFe7EfuHEemFaoXimAwDew" name="devices" type="_PDwcwPuHEemFaoXimAwDew" association="_PG_W8PuHEemFaoXimAwDew"/>
+      <ownedAttribute xmi:id="_PFgwQPuHEemFaoXimAwDew" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PFhXUfuHEemFaoXimAwDew" name="model">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PFilcPuHEemFaoXimAwDew" name="nbOfPassengers">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGRlQPuHEemFaoXimAwDew" name="Car" specification="_O8D5UPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGRlQfuHEemFaoXimAwDew" name="carId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_PGRlQvuHEemFaoXimAwDew" type="_O76IUfuHEemFaoXimAwDew" direction="return"/>
+        <language>java</language>
+        <body>this.setCarId(carId);
+		this.setDevices(new ArrayList&lt;Device>());
+//		System.out.println(&quot;car &quot; + carId + &quot; created&quot;);
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGV2sPuHEemFaoXimAwDew" name="addNewDevice" specification="_O8FugPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGV2sfuHEemFaoXimAwDew" name="deviceId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Device device = new Device(deviceId,carId);
+		new Thread(device).start();
+		devices.add(device);
+		
+		switch (deviceId) {
+		 case 01 :
+			 device.setPower(d1Value);
+			 break;
+		 case 02 :
+			 device.setPower(d2Value);
+			 break;
+		 case 03 :
+			 device.setPower(d3Value);
+			 break;
+		 case 04 :
+			 device.setPower(d4Value);
+			 break;
+		 case 05 :
+			 device.setPower(d5Value);
+			 break;
+		 default:
+			 device.setPower(defaultValue);
+			 break;
+		}
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGV2svuHEemFaoXimAwDew" name="checkCarName" specification="_O8GVkPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGV2s_uHEemFaoXimAwDew" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_PGV2tPuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>if(this.name==name)
+			return 1;
+		else
+			return 0;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGWdwPuHEemFaoXimAwDew" name="setCarName" specification="_O8HjsPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGWdwfuHEemFaoXimAwDew" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.name=name;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGXE0PuHEemFaoXimAwDew" name="getCarName" specification="_O8IKwPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGXE0fuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return this.name;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGXE0vuHEemFaoXimAwDew" name="getDevices" specification="_O8Ix0PuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGXE0_uHEemFaoXimAwDew" type="_PDwcwPuHEemFaoXimAwDew" direction="return"/>
+        <language>java</language>
+        <body>return devices;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGXr4PuHEemFaoXimAwDew" name="setDevices" specification="_PFDdQfuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGXr4fuHEemFaoXimAwDew" name="devices" type="_PDwcwPuHEemFaoXimAwDew"/>
+        <language>java</language>
+        <body>this.devices = devices;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_O8D5UPuHEemFaoXimAwDew" name="Car" method="_PGRlQPuHEemFaoXimAwDew">
+        <eAnnotations xmi:id="_O8FHcPuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_O8FHcfuHEemFaoXimAwDew" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_O8D5UfuHEemFaoXimAwDew" name="carId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_O8FHcvuHEemFaoXimAwDew" type="_O76IUfuHEemFaoXimAwDew" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O8FugPuHEemFaoXimAwDew" name="addNewDevice" method="_PGV2sPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O8FugfuHEemFaoXimAwDew" name="deviceId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O8GVkPuHEemFaoXimAwDew" name="checkCarName" method="_PGV2svuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O8G8oPuHEemFaoXimAwDew" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_O8G8ofuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O8HjsPuHEemFaoXimAwDew" name="setCarName" method="_PGWdwPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O8HjsfuHEemFaoXimAwDew" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O8IKwPuHEemFaoXimAwDew" name="getCarName" method="_PGXE0PuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O8IKwfuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O8Ix0PuHEemFaoXimAwDew" name="getDevices" method="_PGXE0vuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PFDdQPuHEemFaoXimAwDew" type="_PDwcwPuHEemFaoXimAwDew" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_PFDdQfuHEemFaoXimAwDew" name="setDevices" method="_PGXr4PuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PFEEUPuHEemFaoXimAwDew" name="devices" type="_PDwcwPuHEemFaoXimAwDew"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O8Si0PuHEemFaoXimAwDew" name="ChangeState">
+      <ownedComment xmi:id="_PGwGYPuHEemFaoXimAwDew">
+        <body>this class is used to change the device state 
+ *</body>
+      </ownedComment>
+      <generalization xmi:id="_PEFM4PuHEemFaoXimAwDew" general="_O8ySEPuHEemFaoXimAwDew"/>
+      <ownedAttribute xmi:id="_PFjMgPuHEemFaoXimAwDew" name="simulator" visibility="private" type="_O9mKYPuHEemFaoXimAwDew" association="_PHDoYfuHEemFaoXimAwDew"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGYS8PuHEemFaoXimAwDew" name="ChangeState" specification="_PED-wPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGYS8fuHEemFaoXimAwDew" name="simulator" type="_O9mKYPuHEemFaoXimAwDew"/>
+        <ownedParameter xmi:id="_PGYS8vuHEemFaoXimAwDew" type="_O8Si0PuHEemFaoXimAwDew" direction="return"/>
+        <language>java</language>
+        <body>this.simulator = simulator;
+	   </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGYS8_uHEemFaoXimAwDew" name="sendCommand" specification="_O8UYAPuHEemFaoXimAwDew">
+        <language>java</language>
+        <body>BufferedReader reader = null;
+	       try {
+	           reader = new BufferedReader(new FileReader(&quot;/Users/liyiming/Desktop/SM/cw1/src/InputCommand/ChangeState.csv&quot;));
+	           String tempString = null;
+	           reader.readLine();
+	           while ((tempString = reader.readLine()) != null) {
+	        	   String[] commands = tempString.split(&quot;,&quot;);
+	        	   simulator.changeState(commands[0]+&quot;&amp;&quot;+commands[1]+&quot;&amp;&quot;+commands[2]);
+	           }
+	           reader.close();
+	       } catch (IOException e) {
+	           e.printStackTrace();
+	       } 
+	   </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_O8UYAPuHEemFaoXimAwDew" name="sendCommand" method="_PGYS8_uHEemFaoXimAwDew"/>
+      <ownedOperation xmi:id="_PED-wPuHEemFaoXimAwDew" name="ChangeState" method="_PGYS8PuHEemFaoXimAwDew">
+        <eAnnotations xmi:id="_PEEl0PuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_PEEl0fuHEemFaoXimAwDew" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_PED-wfuHEemFaoXimAwDew" name="simulator" type="_O9mKYPuHEemFaoXimAwDew"/>
+        <ownedParameter xmi:id="_PEEl0vuHEemFaoXimAwDew" type="_O8Si0PuHEemFaoXimAwDew" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O8XbUPuHEemFaoXimAwDew" name="CreateDevice">
+      <ownedComment xmi:id="_PGwGYfuHEemFaoXimAwDew">
+        <body>this class is used to create the device
+ *</body>
+      </ownedComment>
+      <generalization xmi:id="_PEHCEPuHEemFaoXimAwDew" general="_O8ySEPuHEemFaoXimAwDew"/>
+      <ownedAttribute xmi:id="_PFjzkfuHEemFaoXimAwDew" name="simulator" visibility="private" isStatic="true" type="_O9mKYPuHEemFaoXimAwDew" association="_PHEPcfuHEemFaoXimAwDew"/>
+      <ownedAttribute xmi:id="_PFkaofuHEemFaoXimAwDew" name="instance" isStatic="true" type="_O8XbUPuHEemFaoXimAwDew" isReadOnly="true" association="_PHE2gfuHEemFaoXimAwDew"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGY6APuHEemFaoXimAwDew" name="CreateDevice" specification="_PEFz8PuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGY6AfuHEemFaoXimAwDew" name="simulator" type="_O9mKYPuHEemFaoXimAwDew"/>
+        <ownedParameter xmi:id="_PGY6AvuHEemFaoXimAwDew" type="_O8XbUPuHEemFaoXimAwDew" direction="return"/>
+        <language>java</language>
+        <body>this.simulator = simulator;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGaIIfuHEemFaoXimAwDew" name="sendCommand" specification="_O8ZQgPuHEemFaoXimAwDew">
+        <language>java</language>
+        <body>System.out.println(&quot;......&quot;);
+ 	
+	    BufferedReader reader = null;
+     try {
+         reader = new BufferedReader(new FileReader(&quot;/Users/liyiming/Desktop/SM/cw1/src/InputCommand/Create.csv&quot;));
+         // read input
+         String tempString = null;
+         
+         while ((tempString = reader.readLine()) != null) {
+     	    String data = null;
+     	    String[] commands = tempString.split(&quot;,&quot;);
+     	    // split the String by &quot;,&quot;
+     	   
+     	    // print out String one by one
+     	    for(int i=0; i&lt;commands.length; i++) {
+         	    System.out.println(commands[i]);
+     	    }
+     	    // print out the number of Array
+     	    System.out.println(commands.length);
+     	    
+     	    // invoke addDevice
+     	 	simulator.addDevice(commands[0]+&quot;&amp;&quot;+commands[1]+&quot;&amp;&quot;+commands[2]+&quot;&amp;&quot;+commands[3]);
+ 	       
+         } 			    
+         reader.close();
+     } catch (IOException e) {
+         e.printStackTrace();
+     } 
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_O8ZQgPuHEemFaoXimAwDew" name="sendCommand" method="_PGaIIfuHEemFaoXimAwDew"/>
+      <ownedOperation xmi:id="_PEFz8PuHEemFaoXimAwDew" name="CreateDevice" method="_PGY6APuHEemFaoXimAwDew">
+        <eAnnotations xmi:id="_PEGbAfuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_PEGbAvuHEemFaoXimAwDew" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_PEGbAPuHEemFaoXimAwDew" name="simulator" type="_O9mKYPuHEemFaoXimAwDew"/>
+        <ownedParameter xmi:id="_PEGbA_uHEemFaoXimAwDew" type="_O8XbUPuHEemFaoXimAwDew" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O8c64PuHEemFaoXimAwDew" name="DeleteDevice">
+      <ownedComment xmi:id="_PGwtcPuHEemFaoXimAwDew">
+        <body>this class is used to delete object when user want to delete some devices.
+ *</body>
+      </ownedComment>
+      <generalization xmi:id="_PEKFYvuHEemFaoXimAwDew" general="_O8ySEPuHEemFaoXimAwDew"/>
+      <ownedAttribute xmi:id="_PFmP0PuHEemFaoXimAwDew" name="simulator" visibility="private" isStatic="true" type="_O9mKYPuHEemFaoXimAwDew" association="_PHGEofuHEemFaoXimAwDew"/>
+      <ownedAttribute xmi:id="_PFm24PuHEemFaoXimAwDew" name="instance" isStatic="true" type="_O8c64PuHEemFaoXimAwDew" isReadOnly="true" association="_PHGrsfuHEemFaoXimAwDew"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGfAoPuHEemFaoXimAwDew" name="DeleteDevice" specification="_PEI3QPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGfAofuHEemFaoXimAwDew" name="simulator" type="_O9mKYPuHEemFaoXimAwDew"/>
+        <ownedParameter xmi:id="_PGfAovuHEemFaoXimAwDew" type="_O8c64PuHEemFaoXimAwDew" direction="return"/>
+        <language>java</language>
+        <body>this.simulator = simulator;
+	 </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGfnsPuHEemFaoXimAwDew" name="sendCommand" specification="_O8ewEPuHEemFaoXimAwDew">
+        <language>java</language>
+        <body>BufferedReader reader = null;
+	       try {
+	           reader = new BufferedReader(new FileReader(&quot;/Users/liyiming/Desktop/SM/cw1/src/InputCommand/Delete.csv&quot;));
+	           String tempString = null;
+	           while ((tempString = reader.readLine()) != null) {
+	        	   String[] commands = tempString.split(&quot;,&quot;);
+	  	           simulator.removeDevice(commands[0]+&quot;&amp;&quot;+commands[1]);
+	           }
+	           reader.close();
+	       } catch (IOException e) {
+	           e.printStackTrace();
+	       } 
+	   </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_O8ewEPuHEemFaoXimAwDew" name="sendCommand" method="_PGfnsPuHEemFaoXimAwDew"/>
+      <ownedOperation xmi:id="_PEI3QPuHEemFaoXimAwDew" name="DeleteDevice" method="_PGfAoPuHEemFaoXimAwDew">
+        <eAnnotations xmi:id="_PEJeUPuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_PEKFYPuHEemFaoXimAwDew" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_PEI3QfuHEemFaoXimAwDew" name="simulator" type="_O9mKYPuHEemFaoXimAwDew"/>
+        <ownedParameter xmi:id="_PEKFYfuHEemFaoXimAwDew" type="_O8c64PuHEemFaoXimAwDew" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O8iacPuHEemFaoXimAwDew" name="Device">
+      <generalization xmi:id="_PENvwPuHEemFaoXimAwDew" general="_O9fcsPuHEemFaoXimAwDew"/>
+      <ownedAttribute xmi:id="_PFpTIPuHEemFaoXimAwDew" name="deviceId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PFpTIfuHEemFaoXimAwDew" name="carId" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PFp6MfuHEemFaoXimAwDew" name="state">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PFuLoPuHEemFaoXimAwDew" name="power">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_PFMnMPuHEemFaoXimAwDew" client="_O8iacPuHEemFaoXimAwDew" supplier="_PEL6kfuHEemFaoXimAwDew" contract="_PEL6kfuHEemFaoXimAwDew"/>
+      <interfaceRealization xmi:id="_PFPDcfuHEemFaoXimAwDew" client="_O8iacPuHEemFaoXimAwDew" supplier="_PFN1UfuHEemFaoXimAwDew" contract="_PFN1UfuHEemFaoXimAwDew"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGhc4PuHEemFaoXimAwDew" name="Device" specification="_O8k2sPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGhc4fuHEemFaoXimAwDew" name="deviceId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_PGhc4vuHEemFaoXimAwDew" name="carId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_PGhc4_uHEemFaoXimAwDew" type="_O8iacPuHEemFaoXimAwDew" direction="return"/>
+        <language>java</language>
+        <body>super();&#xD;
+		this.setDeviceId(deviceId);	&#xD;
+		this.carId = carId;&#xD;
+		this.state = 0;	 &#xD;
+		System.out.println(&quot;Car &quot; + carId + &quot;  Device &quot; + deviceId + &quot; created&quot;);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGiD8PuHEemFaoXimAwDew" name="notifySensor" specification="_O8mE0PuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGiD8fuHEemFaoXimAwDew" name="state">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>System.out.println(&quot;!!!!&quot;);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGiD8vuHEemFaoXimAwDew" name="update" specification="_PFQ4ofuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGiD8_uHEemFaoXimAwDew" name="o" type="_PEKscPuHEemFaoXimAwDew"/>
+        <ownedParameter xmi:id="_PGiD9PuHEemFaoXimAwDew" name="arg" type="_PFQRkPuHEemFaoXimAwDew"/>
+        <language>java</language>
+        <body>String[] splitData = arg.toString().split(&quot;&amp;&quot;);&#xD;
+		int carID = Integer.parseInt(splitData[0]);&#xD;
+		int deviceId = Integer.parseInt(splitData[1]);&#xD;
+		int state = Integer.parseInt(splitData[2]);&#xD;
+		if (this.carId == carID &amp;&amp; this.deviceId == deviceId) {&#xD;
+			setState(state);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGirAPuHEemFaoXimAwDew" name="run" specification="_O8nS8PuHEemFaoXimAwDew">
+        <language>java</language>
+        <body>int preState;&#xD;
+		while(true){&#xD;
+			preState = this.state;&#xD;
+			while(preState==this.state)&#xD;
+				;&#xD;
+			preState = this.state;&#xD;
+			notifySensor(this.state);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_O8k2sPuHEemFaoXimAwDew" name="Device" method="_PGhc4PuHEemFaoXimAwDew">
+        <eAnnotations xmi:id="_O8ldwPuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_O8ldwfuHEemFaoXimAwDew" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_O8k2sfuHEemFaoXimAwDew" name="deviceId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_O8k2svuHEemFaoXimAwDew" name="carId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_O8ldwvuHEemFaoXimAwDew" type="_O8iacPuHEemFaoXimAwDew" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O8mE0PuHEemFaoXimAwDew" name="notifySensor" method="_PGiD8PuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O8mE0fuHEemFaoXimAwDew" name="state">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O8nS8PuHEemFaoXimAwDew" name="run" method="_PGirAPuHEemFaoXimAwDew"/>
+      <ownedOperation xmi:id="_PFQ4ofuHEemFaoXimAwDew" name="update" method="_PGiD8vuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PFQ4ovuHEemFaoXimAwDew" name="o" type="_PEKscPuHEemFaoXimAwDew"/>
+        <ownedParameter xmi:id="_PFQ4o_uHEemFaoXimAwDew" name="arg" type="_PFQRkPuHEemFaoXimAwDew"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O8uAoPuHEemFaoXimAwDew" name="FileMonitor">
+      <ownedComment xmi:id="_PGwtcfuHEemFaoXimAwDew">
+        <body>this class is used to monitor the folder which includes the Create.csv, Delete.csv, Mode.csv, ChangeState.csv &#xD;
+once the folder's file is changed then can be monitored.</body>
+      </ownedComment>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGirAfuHEemFaoXimAwDew" name="main" specification="_O8wc4PuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGirAvuHEemFaoXimAwDew" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PGirA_uHEemFaoXimAwDew" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Manager manager = new Manager(Simulator.getInstance());&#xD;
+		// Simulator.getInstance() returns instance&#xD;
+		&#xD;
+		System.out.println(&quot;Load Create.csv&quot;);&#xD;
+		manager.SwitchCsvObject(&quot;Create.csv&quot;);&#xD;
+		System.out.println(&quot;Load Mode.csv&quot;);&#xD;
+		manager.SwitchCsvObject(&quot;Mode.csv&quot;);&#xD;
+		System.out.println(&quot;Load ChangeState.csv&quot;);&#xD;
+		manager.SwitchCsvObject(&quot;ChangeState.csv&quot;);&#xD;
+		System.out.println(&quot;Load Delete.csv&quot;);&#xD;
+		manager.SwitchCsvObject(&quot;Delete.csv&quot;);&#xD;
+&#xD;
+		&#xD;
+		try {&#xD;
+			WatchService watchService = FileSystems.getDefault().newWatchService();&#xD;
+			Paths.get(&quot;/Users/liyiming/Desktop/SM/cw1/src/InputCommand&quot;).register(watchService,   &#xD;
+		        StandardWatchEventKinds.ENTRY_CREATE,  &#xD;
+		        StandardWatchEventKinds.ENTRY_DELETE,  &#xD;
+		        StandardWatchEventKinds.ENTRY_MODIFY);&#xD;
+				System.out.println(&quot;Startwatching!&quot;);&#xD;
+			&#xD;
+	        while (true) {  &#xD;
+	            WatchKey key = watchService.take();&#xD;
+	            for ( WatchEvent&lt;?> event:key.pollEvents()) { &#xD;
+	        		manager.SwitchCsvObject(event.context().toString());&#xD;
+	            }&#xD;
+	            if (!key.reset()) {  &#xD;
+		            break;  &#xD;
+		        }  &#xD;
+		    }  &#xD;
+		} catch (IOException e) {&#xD;
+		    e.printStackTrace();&#xD;
+		} catch (InterruptedException e) {&#xD;
+		    e.printStackTrace();&#xD;
+		}  	&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_O8unsPuHEemFaoXimAwDew" name="FileMonitor">
+        <eAnnotations xmi:id="_O8vOwPuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_O8vOwfuHEemFaoXimAwDew" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_O8v10PuHEemFaoXimAwDew" type="_O8uAoPuHEemFaoXimAwDew" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O8wc4PuHEemFaoXimAwDew" name="main" isStatic="true" method="_PGirAfuHEemFaoXimAwDew" raisedException="_PEbyMfuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O8wc4fuHEemFaoXimAwDew" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O8xD8PuHEemFaoXimAwDew" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O8ySEPuHEemFaoXimAwDew" name="Functionality" isAbstract="true">
+      <ownedComment xmi:id="_PGwtcvuHEemFaoXimAwDew">
+        <body>This abstract class is used to abstract the method of CreateDevice DeleteDevice, ChangeState, ModeDevice's sendCommand()</body>
+      </ownedComment>
+      <ownedOperation xmi:id="_O8y5IPuHEemFaoXimAwDew" name="sendCommand" isAbstract="true"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O80HQPuHEemFaoXimAwDew" name="Manager">
+      <ownedComment xmi:id="_PGxUgPuHEemFaoXimAwDew">
+        <body>this class is used to manage the device.
+ *</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_PFuysPuHEemFaoXimAwDew" name="simulator" visibility="package" type="_O9mKYPuHEemFaoXimAwDew" association="_PHH50PuHEemFaoXimAwDew"/>
+      <ownedAttribute xmi:id="_PFvZwfuHEemFaoXimAwDew" name="hashmap" visibility="package" type="_PEp0oPuHEemFaoXimAwDew" association="_PHIg4fuHEemFaoXimAwDew">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_PFwn4fuHEemFaoXimAwDew" value="new HashMap&lt;String, Object>()"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGjSEPuHEemFaoXimAwDew" name="Manager" specification="_PErp0PuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGjSEfuHEemFaoXimAwDew" name="sim" type="_O9mKYPuHEemFaoXimAwDew"/>
+        <ownedParameter xmi:id="_PGjSEvuHEemFaoXimAwDew" type="_O80HQPuHEemFaoXimAwDew" direction="return"/>
+        <language>java</language>
+        <body>// TODO Auto-generated constructor stub
+		simulator = sim;		
+		hashmap.put(&quot;Create.csv&quot;, new CreateDevice(simulator));
+		// hashmap.put(key, value);
+		hashmap.put(&quot;Delete.csv&quot;, new DeleteDevice(simulator));
+		hashmap.put(&quot;ChangeState.csv&quot;, new ChangeState(simulator));
+		hashmap.put(&quot;Mode.csv&quot;, new ModeDevice(simulator));
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGj5IPuHEemFaoXimAwDew" name="SwitchCsvObject" specification="_O818cPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGj5IfuHEemFaoXimAwDew" name="filename">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>((Functionality) hashmap.get(filename)).sendCommand();
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_O818cPuHEemFaoXimAwDew" name="SwitchCsvObject" method="_PGj5IPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O818cfuHEemFaoXimAwDew" name="filename">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_PErp0PuHEemFaoXimAwDew" name="Manager" method="_PGjSEPuHEemFaoXimAwDew">
+        <eAnnotations xmi:id="_PEsQ4PuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_PEsQ4fuHEemFaoXimAwDew" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_PErp0fuHEemFaoXimAwDew" name="sim" type="_O9mKYPuHEemFaoXimAwDew"/>
+        <ownedParameter xmi:id="_PEsQ4vuHEemFaoXimAwDew" type="_O80HQPuHEemFaoXimAwDew" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O84_wPuHEemFaoXimAwDew" name="ModeDevice">
+      <ownedComment xmi:id="_PGxUgfuHEemFaoXimAwDew">
+        <body>this class is used to determine mode 
+ *</body>
+      </ownedComment>
+      <generalization xmi:id="_PE2o8PuHEemFaoXimAwDew" general="_O8ySEPuHEemFaoXimAwDew"/>
+      <ownedAttribute xmi:id="_PFx2APuHEemFaoXimAwDew" name="counter">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_PFx2AfuHEemFaoXimAwDew" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PFzrMPuHEemFaoXimAwDew" name="sim" visibility="package" isStatic="true" type="_O9mKYPuHEemFaoXimAwDew" association="_PHJH8fuHEemFaoXimAwDew"/>
+      <ownedAttribute xmi:id="_PF05UfuHEemFaoXimAwDew" name="CHANGE" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_PF8OEPuHEemFaoXimAwDew" value="&quot;/Users/liyiming/Desktop/SM/cw1/src/InputCommand/ChangeState.csv&quot;"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PF81IPuHEemFaoXimAwDew" name="instance" isStatic="true" type="_O84_wPuHEemFaoXimAwDew" association="_PHJvAfuHEemFaoXimAwDew"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGj5IvuHEemFaoXimAwDew" name="getInstance" specification="_O9PlEPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGj5I_uHEemFaoXimAwDew" type="_O84_wPuHEemFaoXimAwDew" direction="return"/>
+        <language>java</language>
+        <body>if(instance == null){
+			instance = new ModeDevice(sim);
+		}   	
+ 	return instance;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGkgMPuHEemFaoXimAwDew" name="ModeDevice" specification="_PE0zwPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGkgMfuHEemFaoXimAwDew" name="simulator" type="_O9mKYPuHEemFaoXimAwDew"/>
+        <ownedParameter xmi:id="_PGkgMvuHEemFaoXimAwDew" type="_O84_wPuHEemFaoXimAwDew" direction="return"/>
+        <language>java</language>
+        <body>sim = simulator;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGkgM_uHEemFaoXimAwDew" name="sendCommand" specification="_O9RaQPuHEemFaoXimAwDew">
+        <language>java</language>
+        <body>try {
+			BufferedReader readFromFile = new BufferedReader(new FileReader(&quot;/Users/liyiming/Desktop/SM/cw1/src/InputCommand/Mode.csv&quot;));
+			readFromFile.readLine(); 
+			String mode = readFromFile.readLine();
+			determineMode(mode);
+			readFromFile.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} 
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGlHQPuHEemFaoXimAwDew" name="determineMode" specification="_O9RaQfuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGlHQfuHEemFaoXimAwDew" name="mode">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>switch (mode) {
+		    case &quot;Auto&quot;:
+				System.out.println(&quot;mode Auto enabled&quot;);
+				sim.setMode(1);
+				
+		    	break;
+		    case &quot;Manual&quot;:
+		    	System.out.println(&quot;mode Manual enabled&quot;);
+		    	sim.setMode(0);
+		    	break;
+		    }
+	    </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_O9PlEPuHEemFaoXimAwDew" name="getInstance" isStatic="true" method="_PGj5IvuHEemFaoXimAwDew">
+        <eAnnotations xmi:id="_O9QMIPuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_O9QMIfuHEemFaoXimAwDew" key="synchronized"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_PE0MsPuHEemFaoXimAwDew" type="_O84_wPuHEemFaoXimAwDew" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9RaQPuHEemFaoXimAwDew" name="sendCommand" method="_PGkgM_uHEemFaoXimAwDew">
+        <ownedComment xmi:id="_PGxUgvuHEemFaoXimAwDew">
+          <body>this sendCommand() is used to read from the Mode.csv file, ignore the first line, get the mode, call the determine the mode
+ *</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9RaQfuHEemFaoXimAwDew" name="determineMode" method="_PGlHQPuHEemFaoXimAwDew">
+        <ownedComment xmi:id="_PGxUg_uHEemFaoXimAwDew">
+          <body>this method determine mode is used to determine mode
+ *</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_O9SBUPuHEemFaoXimAwDew" name="mode">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_PE0zwPuHEemFaoXimAwDew" name="ModeDevice" method="_PGkgMPuHEemFaoXimAwDew">
+        <eAnnotations xmi:id="_PE0zwvuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_PE0zw_uHEemFaoXimAwDew" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_PE0zwfuHEemFaoXimAwDew" name="simulator" type="_O9mKYPuHEemFaoXimAwDew"/>
+        <ownedParameter xmi:id="_PE0zxPuHEemFaoXimAwDew" type="_O84_wPuHEemFaoXimAwDew" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O9VEoPuHEemFaoXimAwDew" name="RealTimeSystem">
+      <generalization xmi:id="_PFUjAPuHEemFaoXimAwDew" general="_PEKscPuHEemFaoXimAwDew"/>
+      <ownedAttribute xmi:id="_PF-DQPuHEemFaoXimAwDew" name="instance" isStatic="true" type="_O9mKYPuHEemFaoXimAwDew" isReadOnly="true" association="_PHK9IPuHEemFaoXimAwDew"/>
+      <ownedAttribute xmi:id="_PGAfgfuHEemFaoXimAwDew" name="cars" visibility="private" type="_PDwcwPuHEemFaoXimAwDew" association="_PHLkMfuHEemFaoXimAwDew"/>
+      <ownedAttribute xmi:id="_PGBtovuHEemFaoXimAwDew" name="statecommand" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGluUfuHEemFaoXimAwDew" name="RealTimeSystem" specification="_O9WSwPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGluUvuHEemFaoXimAwDew" type="_O9VEoPuHEemFaoXimAwDew" direction="return"/>
+        <language>java</language>
+        <body>this.cars = new ArrayList&lt;Car>();
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGoxoPuHEemFaoXimAwDew" name="addNewCar" specification="_O9Xg4PuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGoxofuHEemFaoXimAwDew" name="carId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Car car = new Car(carId);
+		cars.add(car);
+		System.out.println(&quot;Success!&quot;);
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGpYsPuHEemFaoXimAwDew" name="addDevice" specification="_O9YH8PuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGpYsfuHEemFaoXimAwDew" name="deviceIdentifier">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>String[] splitIdentifier = deviceIdentifier.split(&quot;&amp;&quot;);
+		int carId = Integer.parseInt(splitIdentifier[0]);
+		int deviceId = Integer.parseInt(splitIdentifier[1]);
+		Boolean carExists = false;
+		System.out.println(&quot;Success!!&quot;);
+		
+		for (int i = 0; i &lt; cars.size(); i++) {
+		if (cars.get(i).getCarId() == carId) {
+		cars.get(i).addNewDevice(deviceId);
+		int length = cars.get(i).devices.size();
+		Device device = cars.get(i).devices.get(length-1);
+		this.addObserver(device);    // When the device is created, it will be added as a observer.
+		carExists = true;
+		}
+		}
+		if (carExists == false) {              // If the car doesn't exists, create this car and then create the specified device
+		addNewCar(carId);
+		cars.get(cars.size()-1).addNewDevice(deviceId);
+		int length = cars.get(cars.size()-1).devices.size();
+		Device device = cars.get(cars.size()-1).devices.get(length-1);
+		this.addObserver(device);
+		}
+		</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGp_wPuHEemFaoXimAwDew" name="removeDevice" specification="_O9YvAPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGp_wfuHEemFaoXimAwDew" name="removeIdentifier">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>String[] splitIdentifier = removeIdentifier.split(&quot;&amp;&quot;);
+		int carId = Integer.parseInt(splitIdentifier[0]);
+		int deviceId = Integer.parseInt(splitIdentifier[1]);
+
+		for (int i = 0; i &lt; cars.size(); i++) {
+			if (cars.get(i).getCarId() == carId) {
+				for (int j = 0; j &lt; cars.get(i).devices.size(); j++) {
+					if (cars.get(i).devices.get(j).getDeviceId() == deviceId) {
+						Device device = cars.get(i).devices.get(j);
+						this.deleteObserver(device);       // When this device is removed, we also delete this observer.
+						cars.get(i).devices.remove(j);	 
+					}
+				}
+
+			}
+		}
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGp_wvuHEemFaoXimAwDew" name="getState" specification="_O9ZWEPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGp_w_uHEemFaoXimAwDew" name="dataRequest">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_PGp_xPuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int returnState = 0;
+		String[] splitData = dataRequest.split(&quot;&amp;&quot;);
+		int carId = Integer.parseInt(splitData[0]);
+		int deviceId = Integer.parseInt(splitData[1]);
+
+		for (int i = 0; i &lt; cars.size(); i++) {
+			if (cars.get(i).getCarId() == carId) {
+				for (int j = 0; j &lt; cars.get(i).devices.size(); j++) {
+					if (cars.get(i).devices.get(j).getDeviceId() == deviceId) {
+						returnState = cars.get(i).devices.get(j).getState();
+					}
+				}
+			}
+		}
+
+		return returnState;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGqm0PuHEemFaoXimAwDew" name="getPower" specification="_O9Z9IPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGqm0fuHEemFaoXimAwDew" name="dataRequest">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_PGqm0vuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>System.out.println(&quot;input data &quot; + dataRequest);
+		int returnState = 0;
+		String[] splitData = dataRequest.split(&quot;&amp;&quot;);
+		int carId = Integer.parseInt(splitData[0]);
+		int deviceId = Integer.parseInt(splitData[1]);
+		
+		for (int i = 0; i &lt; cars.size(); i++) {
+			if (cars.get(i).getCarId() == carId) {
+				for (int j = 0; j &lt; cars.get(i).devices.size(); j++) {
+					if (cars.get(i).devices.get(j).getDeviceId() == deviceId) {
+						returnState = cars.get(i).devices.get(j).getPower();
+					}
+					else
+						returnState = cars.get(i).devices.get(j).getPower();
+					
+				}
+			}
+		}
+		return returnState;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGrN4PuHEemFaoXimAwDew" name="changeState" specification="_O9bLQfuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGrN4fuHEemFaoXimAwDew" name="dataReceived">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.statecommand = dataReceived;
+		this.setChanged();
+		this.notifyObservers(statecommand); 
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGrN4vuHEemFaoXimAwDew" name="getTemperature" specification="_O9cZYPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGrN4_uHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int max=35;
+     int min=0;
+     
+     Random random = new Random();
+     int temperature = random.nextInt(max)%(max-min+1) + min;
+     System.out.println(&quot;Real temperature: &quot; + temperature);
+     return temperature;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_O9WSwPuHEemFaoXimAwDew" name="RealTimeSystem" method="_PGluUfuHEemFaoXimAwDew">
+        <eAnnotations xmi:id="_O9W50PuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_O9W50fuHEemFaoXimAwDew" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_O9W50vuHEemFaoXimAwDew" type="_O9VEoPuHEemFaoXimAwDew" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9Xg4PuHEemFaoXimAwDew" name="addNewCar" visibility="private" method="_PGoxoPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O9Xg4fuHEemFaoXimAwDew" name="carId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9YH8PuHEemFaoXimAwDew" name="addDevice" method="_PGpYsPuHEemFaoXimAwDew">
+        <ownedComment xmi:id="_PGxUhPuHEemFaoXimAwDew">
+          <body>@param String
+	 *            deviceIdentifier ; eg cId&amp;apId&amp;state&amp;value eg 01&amp;02&amp;01&amp;00
+	 *            state should only be 01 , or 00 value should stay as 00 for
+	 *            now This should be called as soon as the web app decides to
+	 *            add a new device</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_O9YH8fuHEemFaoXimAwDew" name="deviceIdentifier">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9YvAPuHEemFaoXimAwDew" name="removeDevice" method="_PGp_wPuHEemFaoXimAwDew">
+        <ownedComment xmi:id="_PGxUhfuHEemFaoXimAwDew">
+          <body>Should be called when the web app chooses to remove a device
+	 * 
+	 * @param removeIdentifier
+	 *            ; eg 00&amp;02 , rId&amp;apId</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_O9YvAfuHEemFaoXimAwDew" name="removeIdentifier">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9ZWEPuHEemFaoXimAwDew" name="getState" method="_PGp_wvuHEemFaoXimAwDew">
+        <ownedComment xmi:id="_PGxUhvuHEemFaoXimAwDew">
+          <body>Should be called regularly (perhaps in a different thread) to constantly
+	 * relay the current state of an device to the web app
+	 * 
+	 * @param dataRequest
+	 *            ; rId&amp;apId ; eg 00&amp;01 - gets state of device 02 in car
+	 *            00
+	 * @return state of device, eg 00 (off) or 01 (on)</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_O9ZWEfuHEemFaoXimAwDew" name="dataRequest">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_O9ZWEvuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9Z9IPuHEemFaoXimAwDew" name="getPower" method="_PGqm0PuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O9Z9IfuHEemFaoXimAwDew" name="dataRequest">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_O9bLQPuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9bLQfuHEemFaoXimAwDew" name="changeState" method="_PGrN4PuHEemFaoXimAwDew">
+        <ownedComment xmi:id="_PGxUh_uHEemFaoXimAwDew">
+          <body>This should be called as soon as the web app turns on/off a device
+	 * @param dataReceived ; cId&amp;apId&amp;state ;  eg 00&amp;02&amp;01 turns on the device 02 in car 00</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_O9byUPuHEemFaoXimAwDew" name="dataReceived">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9cZYPuHEemFaoXimAwDew" name="getTemperature" method="_PGrN4vuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O9cZYfuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O9fcsPuHEemFaoXimAwDew" name="Sensor">
+      <ownedAttribute xmi:id="_PGC7wPuHEemFaoXimAwDew" name="Type">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PGDi0PuHEemFaoXimAwDew" name="Id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGr08PuHEemFaoXimAwDew" name="Sensor" specification="_O9h48PuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGr08fuHEemFaoXimAwDew" type="_O9fcsPuHEemFaoXimAwDew" direction="return"/>
+        <language>java</language>
+        <body>Id=0;&#xD;
+		Type=&quot;Unknown&quot;;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGscAPuHEemFaoXimAwDew" name="Sensor" specification="_O9igAPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGscAfuHEemFaoXimAwDew" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_PGscAvuHEemFaoXimAwDew" type="_O9fcsPuHEemFaoXimAwDew" direction="return"/>
+        <language>java</language>
+        <body>Id=id;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGtDEPuHEemFaoXimAwDew" name="getSensorId" specification="_O9jHE_uHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGtDEfuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return Id;&#xD;
+		&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGtDEvuHEemFaoXimAwDew" name="setSensorId" specification="_O9juIfuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGtDE_uHEemFaoXimAwDew" name="i">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Id=i;&#xD;
+		&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGtDFPuHEemFaoXimAwDew" name="getSensorType" specification="_O9kVMPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGtDFfuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return Type;&#xD;
+		&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGtqIPuHEemFaoXimAwDew" name="setSensorType" specification="_O9k8QPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGtqIfuHEemFaoXimAwDew" name="type">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Type=type;&#xD;
+		&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGtqIvuHEemFaoXimAwDew" name="checkSensorType" specification="_O9ljUPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGtqI_uHEemFaoXimAwDew" name="s">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>if (Type==&quot;Unknown&quot;)&#xD;
+			Type=&quot;Type 1&quot;;&#xD;
+		else&#xD;
+			Type=&quot;Type 2&quot;;&#xD;
+		&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_O9h48PuHEemFaoXimAwDew" name="Sensor" method="_PGr08PuHEemFaoXimAwDew">
+        <eAnnotations xmi:id="_O9h48fuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_O9h48vuHEemFaoXimAwDew" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_O9h48_uHEemFaoXimAwDew" type="_O9fcsPuHEemFaoXimAwDew" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9igAPuHEemFaoXimAwDew" name="Sensor" method="_PGscAPuHEemFaoXimAwDew">
+        <eAnnotations xmi:id="_O9jHEPuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_O9jHEfuHEemFaoXimAwDew" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_O9igAfuHEemFaoXimAwDew" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_O9jHEvuHEemFaoXimAwDew" type="_O9fcsPuHEemFaoXimAwDew" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9jHE_uHEemFaoXimAwDew" name="getSensorId" method="_PGtDEPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O9juIPuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9juIfuHEemFaoXimAwDew" name="setSensorId" method="_PGtDEvuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O9juIvuHEemFaoXimAwDew" name="i">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9kVMPuHEemFaoXimAwDew" name="getSensorType" method="_PGtDFPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O9kVMfuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9k8QPuHEemFaoXimAwDew" name="setSensorType" method="_PGtqIPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O9k8QfuHEemFaoXimAwDew" name="type">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9ljUPuHEemFaoXimAwDew" name="checkSensorType" method="_PGtqIvuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O9ljUfuHEemFaoXimAwDew" name="s">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O9mKYPuHEemFaoXimAwDew" name="Simulator">
+      <generalization xmi:id="_PFW_QPuHEemFaoXimAwDew" general="_PEKscPuHEemFaoXimAwDew"/>
+      <ownedAttribute xmi:id="_PGEJ4PuHEemFaoXimAwDew" name="instance" isStatic="true" type="_O9mKYPuHEemFaoXimAwDew" isReadOnly="true" association="_PHMLQfuHEemFaoXimAwDew"/>
+      <ownedAttribute xmi:id="_PGFYAPuHEemFaoXimAwDew" name="mode">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PGFYAfuHEemFaoXimAwDew" name="cars" visibility="private" type="_PDwcwPuHEemFaoXimAwDew" association="_PHNZYPuHEemFaoXimAwDew"/>
+      <ownedAttribute xmi:id="_PGGmIfuHEemFaoXimAwDew" name="statecommand" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGtqJvuHEemFaoXimAwDew" name="Simulator" specification="_O9nYgPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGtqJ_uHEemFaoXimAwDew" type="_O9mKYPuHEemFaoXimAwDew" direction="return"/>
+        <language>java</language>
+        <body>// initialize an array list of cars
+		this.cars = new ArrayList&lt;Car>();
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGuRMPuHEemFaoXimAwDew" name="addNewCar" specification="_O9omoPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGuRMfuHEemFaoXimAwDew" name="carId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Car car = new Car(carId);
+		cars.add(car);
+		System.out.println(&quot;Success!&quot;);
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGuRMvuHEemFaoXimAwDew" name="addDevice" specification="_O9pNsPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGuRM_uHEemFaoXimAwDew" name="deviceIdentifier">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>String[] splitIdentifier = deviceIdentifier.split(&quot;&amp;&quot;);
+		int carId = Integer.parseInt(splitIdentifier[0]);
+		int deviceId = Integer.parseInt(splitIdentifier[1]);
+     Boolean carExists = false;
+     System.out.println(&quot;Success!!&quot;);
+     
+     // check if exists
+		for (int i = 0; i &lt; cars.size(); i++) {
+			if (cars.get(i).getCarId() == carId) {
+				cars.get(i).addNewDevice(deviceId);
+				int length = cars.get(i).devices.size();
+				Device device = cars.get(i).devices.get(length-1);
+				this.addObserver(device);    // When the device is created, it will be added as a observer.
+				carExists = true;
+			}
+		}
+		if (carExists == false) {              // If the car doesn't exists, create this car and then create the specified device
+			addNewCar(carId);
+			cars.get(cars.size()-1).addNewDevice(deviceId);
+			int length = cars.get(cars.size()-1).devices.size();
+			Device device = cars.get(cars.size()-1).devices.get(length-1);
+			this.addObserver(device);
+		}
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGuRNPuHEemFaoXimAwDew" name="removeDevice" specification="_O9p0wPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGuRNfuHEemFaoXimAwDew" name="removeIdentifier">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>String[] splitIdentifier = removeIdentifier.split(&quot;&amp;&quot;);
+		int carId = Integer.parseInt(splitIdentifier[0]);
+		int deviceId = Integer.parseInt(splitIdentifier[1]);
+
+		for (int i = 0; i &lt; cars.size(); i++) {
+			if (cars.get(i).getCarId() == carId) {
+				for (int j = 0; j &lt; cars.get(i).devices.size(); j++) {
+					if (cars.get(i).devices.get(j).getDeviceId() == deviceId) {
+						Device device = cars.get(i).devices.get(j);
+						this.deleteObserver(device);       // When this device is removed, we also delete this observer.
+						cars.get(i).devices.remove(j);	 
+					}
+				}
+
+			}
+		}
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGuRNvuHEemFaoXimAwDew" name="getState" specification="_O9qb0PuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGuRN_uHEemFaoXimAwDew" name="dataRequest">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_PGuROPuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>//		System.out.println(dataRequest);
+		int returnState = 0;
+		String[] splitData = dataRequest.split(&quot;&amp;&quot;);
+		int carId = Integer.parseInt(splitData[0]);
+		int deviceId = Integer.parseInt(splitData[1]);
+
+		for (int i = 0; i &lt; cars.size(); i++) {
+			if (cars.get(i).getCarId() == carId) {
+				for (int j = 0; j &lt; cars.get(i).devices.size(); j++) {
+					if (cars.get(i).devices.get(j).getDeviceId() == deviceId) {
+						returnState = cars.get(i).devices.get(j).getState();
+//						System.out.println(returnState);
+					}
+				}
+			}
+		}
+
+		return returnState;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGu4QPuHEemFaoXimAwDew" name="getPower" specification="_O9rC4PuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGu4QfuHEemFaoXimAwDew" name="dataRequest">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_PGu4QvuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>System.out.println(&quot;input data &quot; + dataRequest);
+		int returnState = 0;
+		String[] splitData = dataRequest.split(&quot;&amp;&quot;);
+		int carId = Integer.parseInt(splitData[0]);
+		int deviceId = Integer.parseInt(splitData[1]);
+		
+		for (int i = 0; i &lt; cars.size(); i++) {
+			if (cars.get(i).getCarId() == carId) {
+				for (int j = 0; j &lt; cars.get(i).devices.size(); j++) {
+					if (cars.get(i).devices.get(j).getDeviceId() == deviceId) {
+						returnState = cars.get(i).devices.get(j).getPower();
+					}
+				}
+			}
+		}
+		return returnState;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGu4Q_uHEemFaoXimAwDew" name="changeState" specification="_O9rp8PuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGu4RPuHEemFaoXimAwDew" name="dataReceived">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_PGu4RfuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>System.out.println(&quot;change state&quot;);
+		this.statecommand = dataReceived;
+		this.setChanged();
+		this.notifyObservers(statecommand); 
+		
+		return 0;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_PGu4RvuHEemFaoXimAwDew" name="getTemperature" specification="_O9sRAPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_PGu4R_uHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int max=35;
+     int min=0;
+     
+     Random random = new Random();
+     int temperature = random.nextInt(max)%(max-min+1) + min;
+     System.out.println(&quot;Real temperature: &quot; + temperature);
+     return temperature;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_O9nYgPuHEemFaoXimAwDew" name="Simulator" method="_PGtqJvuHEemFaoXimAwDew">
+        <eAnnotations xmi:id="_O9n_kPuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_O9n_kfuHEemFaoXimAwDew" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_O9n_kvuHEemFaoXimAwDew" type="_O9mKYPuHEemFaoXimAwDew" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9omoPuHEemFaoXimAwDew" name="addNewCar" visibility="private" method="_PGuRMPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O9omofuHEemFaoXimAwDew" name="carId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9pNsPuHEemFaoXimAwDew" name="addDevice" method="_PGuRMvuHEemFaoXimAwDew">
+        <ownedComment xmi:id="_PGyioPuHEemFaoXimAwDew">
+          <body>@param String
+	 *            deviceIdentifier ; eg cId&amp;apId&amp;state&amp;value eg 01&amp;02&amp;01&amp;00
+	 *            state should only be 01 , or 00 value should stay as 00 for
+	 *            now This should be called as soon as the web app decides to
+	 *            add a new device</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_O9pNsfuHEemFaoXimAwDew" name="deviceIdentifier">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9p0wPuHEemFaoXimAwDew" name="removeDevice" method="_PGuRNPuHEemFaoXimAwDew">
+        <ownedComment xmi:id="_PGyiofuHEemFaoXimAwDew">
+          <body>Should be called when the web app chooses to remove a device
+	 * 
+	 * @param removeIdentifier
+	 *            ; eg 00&amp;02 , cId&amp;dId</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_O9p0wfuHEemFaoXimAwDew" name="removeIdentifier">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9qb0PuHEemFaoXimAwDew" name="getState" method="_PGuRNvuHEemFaoXimAwDew">
+        <ownedComment xmi:id="_PGyiovuHEemFaoXimAwDew">
+          <body>Should be called regularly (perhaps in a different thread) to constantly
+	 * relay the current state of a device to the web app
+	 * 
+	 * @param dataRequest
+	 *            ; cId&amp;dId ; eg 00&amp;01 - gets state of device 02 in car
+	 *            00
+	 * @return state of car, eg 00 (off) or 01 (on)</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_O9qb0fuHEemFaoXimAwDew" name="dataRequest">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_O9qb0vuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9rC4PuHEemFaoXimAwDew" name="getPower" method="_PGu4QPuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O9rC4fuHEemFaoXimAwDew" name="dataRequest">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_O9rC4vuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9rp8PuHEemFaoXimAwDew" name="changeState" method="_PGu4Q_uHEemFaoXimAwDew">
+        <ownedComment xmi:id="_PGzJsPuHEemFaoXimAwDew">
+          <body>This should be called as soon as the web app turns on/off a device
+	 * @param dataReceived ; cId&amp;dId&amp;state ;  eg 00&amp;02&amp;01 turns on the device 02 in car 00</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_O9rp8fuHEemFaoXimAwDew" name="dataReceived">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_O9rp8vuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_O9sRAPuHEemFaoXimAwDew" name="getTemperature" method="_PGu4RvuHEemFaoXimAwDew">
+        <ownedParameter xmi:id="_O9sRAfuHEemFaoXimAwDew" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PG_W8PuHEemFaoXimAwDew" name="" memberEnd="_PG_W8fuHEemFaoXimAwDew _PFe7EfuHEemFaoXimAwDew">
+      <ownedEnd xmi:id="_PG_W8fuHEemFaoXimAwDew" name="" type="_O76IUfuHEemFaoXimAwDew" association="_PG_W8PuHEemFaoXimAwDew"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PHDoYfuHEemFaoXimAwDew" name="" memberEnd="_PHDoYvuHEemFaoXimAwDew _PFjMgPuHEemFaoXimAwDew">
+      <ownedEnd xmi:id="_PHDoYvuHEemFaoXimAwDew" name="" type="_O8Si0PuHEemFaoXimAwDew" association="_PHDoYfuHEemFaoXimAwDew"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PHEPcfuHEemFaoXimAwDew" name="" memberEnd="_PHEPcvuHEemFaoXimAwDew _PFjzkfuHEemFaoXimAwDew">
+      <ownedEnd xmi:id="_PHEPcvuHEemFaoXimAwDew" name="" type="_O8XbUPuHEemFaoXimAwDew" association="_PHEPcfuHEemFaoXimAwDew"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PHE2gfuHEemFaoXimAwDew" name="" memberEnd="_PHE2gvuHEemFaoXimAwDew _PFkaofuHEemFaoXimAwDew">
+      <ownedEnd xmi:id="_PHE2gvuHEemFaoXimAwDew" name="" type="_O8XbUPuHEemFaoXimAwDew" association="_PHE2gfuHEemFaoXimAwDew"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PHGEofuHEemFaoXimAwDew" name="" memberEnd="_PHGEovuHEemFaoXimAwDew _PFmP0PuHEemFaoXimAwDew">
+      <ownedEnd xmi:id="_PHGEovuHEemFaoXimAwDew" name="" type="_O8c64PuHEemFaoXimAwDew" association="_PHGEofuHEemFaoXimAwDew"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PHGrsfuHEemFaoXimAwDew" name="" memberEnd="_PHGrsvuHEemFaoXimAwDew _PFm24PuHEemFaoXimAwDew">
+      <ownedEnd xmi:id="_PHGrsvuHEemFaoXimAwDew" name="" type="_O8c64PuHEemFaoXimAwDew" association="_PHGrsfuHEemFaoXimAwDew"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PHH50PuHEemFaoXimAwDew" name="" memberEnd="_PHH50fuHEemFaoXimAwDew _PFuysPuHEemFaoXimAwDew">
+      <ownedEnd xmi:id="_PHH50fuHEemFaoXimAwDew" name="" type="_O80HQPuHEemFaoXimAwDew" association="_PHH50PuHEemFaoXimAwDew"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PHIg4fuHEemFaoXimAwDew" name="" memberEnd="_PHIg4vuHEemFaoXimAwDew _PFvZwfuHEemFaoXimAwDew">
+      <ownedEnd xmi:id="_PHIg4vuHEemFaoXimAwDew" name="" type="_O80HQPuHEemFaoXimAwDew" association="_PHIg4fuHEemFaoXimAwDew"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PHJH8fuHEemFaoXimAwDew" name="" memberEnd="_PHJH8vuHEemFaoXimAwDew _PFzrMPuHEemFaoXimAwDew">
+      <ownedEnd xmi:id="_PHJH8vuHEemFaoXimAwDew" name="" type="_O84_wPuHEemFaoXimAwDew" association="_PHJH8fuHEemFaoXimAwDew"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PHJvAfuHEemFaoXimAwDew" name="" memberEnd="_PHJvAvuHEemFaoXimAwDew _PF81IPuHEemFaoXimAwDew">
+      <ownedEnd xmi:id="_PHJvAvuHEemFaoXimAwDew" name="" type="_O84_wPuHEemFaoXimAwDew" association="_PHJvAfuHEemFaoXimAwDew"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PHK9IPuHEemFaoXimAwDew" name="" memberEnd="_PHK9IfuHEemFaoXimAwDew _PF-DQPuHEemFaoXimAwDew">
+      <ownedEnd xmi:id="_PHK9IfuHEemFaoXimAwDew" name="" type="_O9VEoPuHEemFaoXimAwDew" association="_PHK9IPuHEemFaoXimAwDew"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PHLkMfuHEemFaoXimAwDew" name="" memberEnd="_PHLkMvuHEemFaoXimAwDew _PGAfgfuHEemFaoXimAwDew">
+      <ownedEnd xmi:id="_PHLkMvuHEemFaoXimAwDew" name="" type="_O9VEoPuHEemFaoXimAwDew" association="_PHLkMfuHEemFaoXimAwDew"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PHMLQfuHEemFaoXimAwDew" name="" memberEnd="_PHMLQvuHEemFaoXimAwDew _PGEJ4PuHEemFaoXimAwDew">
+      <ownedEnd xmi:id="_PHMLQvuHEemFaoXimAwDew" name="" type="_O9mKYPuHEemFaoXimAwDew" association="_PHMLQfuHEemFaoXimAwDew"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PHNZYPuHEemFaoXimAwDew" name="" memberEnd="_PHNZYfuHEemFaoXimAwDew _PGFYAfuHEemFaoXimAwDew">
+      <ownedEnd xmi:id="_PHNZYfuHEemFaoXimAwDew" name="" type="_O9mKYPuHEemFaoXimAwDew" association="_PHNZYPuHEemFaoXimAwDew"/>
+    </packagedElement>
+    <profileApplication xmi:id="_OgW0wPuHEemFaoXimAwDew">
+      <eAnnotations xmi:id="_OgZ4EPuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_OgeJgPuHEemFaoXimAwDew" base_Package="_OVzxoPuHEemFaoXimAwDew">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Generics xmi:id="_O8LOEPuHEemFaoXimAwDew" genericsValue="Device" base_Element="_O8Ix0PuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_O8n6APuHEemFaoXimAwDew" base_Element="_O8nS8PuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Annotations xmi:id="_O8pIIPuHEemFaoXimAwDew" base_Element="_O8nS8PuHEemFaoXimAwDew">
+    <annotations xmi:id="_O8pIIfuHEemFaoXimAwDew" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_O8vOwvuHEemFaoXimAwDew" base_Element="_O8unsPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_O8zgMPuHEemFaoXimAwDew" base_Element="_O8y5IPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_O9QMIvuHEemFaoXimAwDew" base_Element="_O9PlEPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PDxq4PuHEemFaoXimAwDew" base_Element="_PDwcwPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PD7b4PuHEemFaoXimAwDew" base_Element="_PD5msPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PD9REPuHEemFaoXimAwDew" base_Element="_PD7b4fuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PECwoPuHEemFaoXimAwDew" base_Element="_PD94IPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PEL6kPuHEemFaoXimAwDew" base_Element="_PEKscPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PENIsPuHEemFaoXimAwDew" base_Element="_PEL6kfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PEQzEPuHEemFaoXimAwDew" base_Element="_PEQMAPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PESBMPuHEemFaoXimAwDew" base_Element="_PEQzEfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PETPUPuHEemFaoXimAwDew" base_Element="_PESBMfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PET2YPuHEemFaoXimAwDew" base_Element="_PETPUfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PEW5sPuHEemFaoXimAwDew" base_Element="_PEUdcPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PEbyMPuHEemFaoXimAwDew" base_Element="_PEXgwPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PEcZQPuHEemFaoXimAwDew" base_Element="_PEbyMfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PEn_cPuHEemFaoXimAwDew" base_Element="_PEdAUPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PErCwPuHEemFaoXimAwDew" base_Element="_PEp0oPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PExwcPuHEemFaoXimAwDew" base_Element="_PExJYPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PEy-kPuHEemFaoXimAwDew" base_Element="_PEyXgPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PE5sQPuHEemFaoXimAwDew" base_Element="_PE5FMPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Generics xmi:id="_PFErYPuHEemFaoXimAwDew" genericsValue="Device" base_Element="_PFEEUPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PFPDcPuHEemFaoXimAwDew" base_Element="_PFN1UfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PFQ4oPuHEemFaoXimAwDew" base_Element="_PFQRkPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFRfsPuHEemFaoXimAwDew" base_Element="_PFQ4ofuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Annotations xmi:id="_PFSGwPuHEemFaoXimAwDew" base_Element="_PFQ4ofuHEemFaoXimAwDew">
+    <annotations xmi:id="_PFSGwfuHEemFaoXimAwDew" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFbQsPuHEemFaoXimAwDew" base_Element="_PFaCkPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFb3wPuHEemFaoXimAwDew" base_Element="_PFbQsfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFce0PuHEemFaoXimAwDew" base_Element="_PFb3wfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFdF4fuHEemFaoXimAwDew" base_Element="_PFce0fuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFds8vuHEemFaoXimAwDew" base_Element="_PFds8PuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFeUAvuHEemFaoXimAwDew" base_Element="_PFeUAPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Generics xmi:id="_PFgJMPuHEemFaoXimAwDew" genericsValue="Device" base_Element="_PFe7EfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFgJMfuHEemFaoXimAwDew" base_Element="_PFe7EfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFhXUPuHEemFaoXimAwDew" base_Element="_PFgwQPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFh-YPuHEemFaoXimAwDew" base_Element="_PFhXUfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFilcfuHEemFaoXimAwDew" base_Element="_PFilcPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFjzkPuHEemFaoXimAwDew" base_Element="_PFjMgPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFkaoPuHEemFaoXimAwDew" base_Element="_PFjzkfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFlBsPuHEemFaoXimAwDew" base_Element="_PFkaofuHEemFaoXimAwDew">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_PFlBsfuHEemFaoXimAwDew" name="getInstance" isStatic="true" method="_PGZhEPuHEemFaoXimAwDew">
+      <eAnnotations xmi:id="_PFlowPuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_PFlowfuHEemFaoXimAwDew" key="synchronized"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_PFlowvuHEemFaoXimAwDew" type="_O8XbUPuHEemFaoXimAwDew" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFmP0fuHEemFaoXimAwDew" base_Element="_PFmP0PuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFm24fuHEemFaoXimAwDew" base_Element="_PFm24PuHEemFaoXimAwDew">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_PFm24vuHEemFaoXimAwDew" name="getInstance" isStatic="true" method="_PGeZkPuHEemFaoXimAwDew">
+      <eAnnotations xmi:id="_PFnd8PuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_PFnd8fuHEemFaoXimAwDew" key="synchronized"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_PFnd8vuHEemFaoXimAwDew" type="_O8c64PuHEemFaoXimAwDew" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFp6MPuHEemFaoXimAwDew" base_Element="_PFpTIfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFqhQPuHEemFaoXimAwDew" base_Element="_PFp6MfuHEemFaoXimAwDew">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_PFrIUPuHEemFaoXimAwDew" name="getState" method="_PGfnsfuHEemFaoXimAwDew">
+      <ownedParameter xmi:id="_PFsWcvuHEemFaoXimAwDew" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_PFsWcPuHEemFaoXimAwDew" name="setState" method="_PGgOwfuHEemFaoXimAwDew">
+      <ownedParameter xmi:id="_PFsWcfuHEemFaoXimAwDew" name="newState">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFvZwPuHEemFaoXimAwDew" base_Element="_PFuysPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Generics xmi:id="_PFwn4PuHEemFaoXimAwDew" genericsValue="String, Object" base_Element="_PFvZwfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PFxO8PuHEemFaoXimAwDew" base_Element="_PFvZwfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PF05UPuHEemFaoXimAwDew" base_Element="_PFzrMPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PF9cMPuHEemFaoXimAwDew" base_Element="_PF81IPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PF-qUPuHEemFaoXimAwDew" base_Element="_PF-DQPuHEemFaoXimAwDew">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_PF_4cPuHEemFaoXimAwDew" name="getInstance" isStatic="true" method="_PGlHQvuHEemFaoXimAwDew">
+      <eAnnotations xmi:id="_PF_4cfuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_PF_4cvuHEemFaoXimAwDew" key="synchronized"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_PGAfgPuHEemFaoXimAwDew" type="_O9mKYPuHEemFaoXimAwDew" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Generics xmi:id="_PGBtoPuHEemFaoXimAwDew" genericsValue="Car" base_Element="_PGAfgfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PGBtofuHEemFaoXimAwDew" base_Element="_PGAfgfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PGCUsPuHEemFaoXimAwDew" base_Element="_PGBtovuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PGC7wfuHEemFaoXimAwDew" base_Element="_PGC7wPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PGDi0fuHEemFaoXimAwDew" base_Element="_PGDi0PuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PGEJ4fuHEemFaoXimAwDew" base_Element="_PGEJ4PuHEemFaoXimAwDew">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_PGEw8PuHEemFaoXimAwDew" name="getInstance" isStatic="true" method="_PGtqJPuHEemFaoXimAwDew">
+      <eAnnotations xmi:id="_PGEw8fuHEemFaoXimAwDew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_PGEw8vuHEemFaoXimAwDew" key="synchronized"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_PGEw8_uHEemFaoXimAwDew" type="_O9mKYPuHEemFaoXimAwDew" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Generics xmi:id="_PGF_EPuHEemFaoXimAwDew" genericsValue="Car" base_Element="_PGFYAfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PGGmIPuHEemFaoXimAwDew" base_Element="_PGFYAfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PGHNMPuHEemFaoXimAwDew" base_Element="_PGGmIfuHEemFaoXimAwDew"/>
+  <uml:OpaqueBehavior xmi:id="_PGZhEPuHEemFaoXimAwDew" name="getInstance" specification="_PFlBsfuHEemFaoXimAwDew">
+    <ownedParameter xmi:id="_PGaIIPuHEemFaoXimAwDew" type="_O8XbUPuHEemFaoXimAwDew" direction="return"/>
+    <language>java</language>
+    <body>if(instance == null){
+			instance = new CreateDevice(simulator);
+		}   	
+	    	return instance;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_PGeZkPuHEemFaoXimAwDew" name="getInstance" specification="_PFm24vuHEemFaoXimAwDew">
+    <ownedParameter xmi:id="_PGeZkfuHEemFaoXimAwDew" type="_O8c64PuHEemFaoXimAwDew" direction="return"/>
+    <language>java</language>
+    <body>if(instance == null){
+			instance = new DeleteDevice(simulator);
+		}   	
+	    	return instance;
+	 </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_PGfnsfuHEemFaoXimAwDew" name="getState" specification="_PFrIUPuHEemFaoXimAwDew">
+    <ownedParameter xmi:id="_PGgOwPuHEemFaoXimAwDew" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>System.out.println(&quot;device &quot; + deviceId + &quot; state = &quot; + state);&#xD;
+		return this.state;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_PGgOwfuHEemFaoXimAwDew" name="setState" specification="_PFsWcPuHEemFaoXimAwDew">
+    <ownedParameter xmi:id="_PGgOwvuHEemFaoXimAwDew" name="newState">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.state = newState;&#xD;
+		System.out.println(&quot;Car &quot; + carId + &quot;  Device &quot; + deviceId + &quot; new state = &quot; + state);&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_PGlHQvuHEemFaoXimAwDew" name="getInstance" specification="_PF_4cPuHEemFaoXimAwDew">
+    <ownedParameter xmi:id="_PGluUPuHEemFaoXimAwDew" type="_O9mKYPuHEemFaoXimAwDew" direction="return"/>
+    <language>java</language>
+    <body>if(instance == null){
+			instance = new Simulator();
+		}   	
+ 	return instance;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_PGtqJPuHEemFaoXimAwDew" name="getInstance" specification="_PGEw8PuHEemFaoXimAwDew">
+    <ownedParameter xmi:id="_PGtqJfuHEemFaoXimAwDew" type="_O9mKYPuHEemFaoXimAwDew" direction="return"/>
+    <language>java</language>
+    <body>if(instance == null){
+			// initialize a Simulator object
+			instance = new Simulator();
+		}   	
+ 	return instance;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_PHDoYPuHEemFaoXimAwDew" base_Element="_PG_W8PuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PHEPcPuHEemFaoXimAwDew" base_Element="_PHDoYfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PHE2gPuHEemFaoXimAwDew" base_Element="_PHEPcfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PHGEoPuHEemFaoXimAwDew" base_Element="_PHE2gfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PHGrsPuHEemFaoXimAwDew" base_Element="_PHGEofuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PHHSwPuHEemFaoXimAwDew" base_Element="_PHGrsfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PHIg4PuHEemFaoXimAwDew" base_Element="_PHH50PuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PHJH8PuHEemFaoXimAwDew" base_Element="_PHIg4fuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PHJvAPuHEemFaoXimAwDew" base_Element="_PHJH8fuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PHKWEPuHEemFaoXimAwDew" base_Element="_PHJvAfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PHLkMPuHEemFaoXimAwDew" base_Element="_PHK9IPuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PHMLQPuHEemFaoXimAwDew" base_Element="_PHLkMfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PHMyUPuHEemFaoXimAwDew" base_Element="_PHMLQfuHEemFaoXimAwDew"/>
+  <UMLLabProfile:Reference xmi:id="_PHOAcPuHEemFaoXimAwDew" base_Element="_PHNZYPuHEemFaoXimAwDew"/>
+</xmi:XMI>
